@@ -1,0 +1,21 @@
+﻿{
+  "name": "student-database",
+  "version": "1.0.0",
+  "description": "Student Management System - A web application for managing student records",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 8888 -o",
+    "dev": "npx live-server --port=8080 --open=index.html",
+    "serve": "python -m http.server 8080"
+  },
+  "keywords": [
+    "student",
+    "management", 
+    "database",
+    "web-app"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
